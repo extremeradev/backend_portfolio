@@ -20,8 +20,8 @@ app.post("/send-email", async (req, res) => {
     port: 587,
     secure: false,
     auth: {
-      user: "extremera.dev@gmail.com",
-      pass: "citx fkms mqus jrbc",
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
     },
   });
 
