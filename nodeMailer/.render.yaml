@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nodemailer-app
+    env: node
+    buildCommand: 'yarn install'
+    startCommand: 'yarn start'
+    plan: free
