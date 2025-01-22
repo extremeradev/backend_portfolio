@@ -6,7 +6,7 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors({origin: 'https://alextremera-75cxj62jy-extremeradevs-projects.vercel.app'}));
+app.use(cors({origin: 'https://alextremera.vercel.app'}));
 
 app.use(bodyParser.json());
 
