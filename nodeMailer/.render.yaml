@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: nodemailer-app
+    name: nodemailer
     env: node
     buildCommand: 'yarn install'
     startCommand: 'yarn start'
